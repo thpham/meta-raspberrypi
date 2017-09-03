@@ -2,8 +2,8 @@ FILESEXTRAPATHS_prepend := "${THISDIR}/${PN}-${PV}:"
 
 LINUX_VERSION ?= "4.4.50"
 
-SRCREV = "04c8e47067d4873c584395e5cb260b4f170a99ea"
-SRC_URI = "git://github.com/raspberrypi/linux.git;protocol=git;branch=rpi-4.4.y \
+SRCREV = "84125137f14e7cd5eb84312bf999bf519a50a64c"
+SRC_URI = "git://github.com/thpham/linux-rt-rpi.git;protocol=git;branch=emlid-stable-4.4-rebase \
            file://0001-fix-dtbo-rules.patch \
 "
 
